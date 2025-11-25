@@ -90,10 +90,6 @@ N'hésitez pas à me contacter pour toute opportunité de stage, alternance ou p
 
 ---
 
-<div align="center">
 
-⭐ **"Le code est de la poésie pour machines"** ⭐
-
-</div>
 
 
