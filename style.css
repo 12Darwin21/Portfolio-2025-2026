@@ -1101,3 +1101,30 @@ footer {
         0 20px 40px rgba(0, 0, 0, 0.1),
         0 10px 20px rgba(0, 0, 0, 0.05);
 }
+/* Boutons rapports de stage */
+.experience-actions {
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid #e9ecef;
+}
+
+.rapport-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    gap: 8px;
+    font-size: 0.9rem;
+}
+
+.rapport-btn:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
