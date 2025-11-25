@@ -24,7 +24,7 @@ Portfolio personnel présentant mon parcours, mes compétences techniques et mes
 - **Outils:** Git, GitHub, Visual Studio Code
 
 ## 📁 Structure du projet
-Portfolio-2025-2026/
+Portfolio-2025-2026/<br>
 ├── index.html # Page principale <br>
 ├── style.css # Feuille de styles CSS <br>
 ├── script.js # Scripts JavaScript <br>
@@ -89,6 +89,7 @@ Ce portfolio est déployé automatiquement via **GitHub Pages** à chaque mise �
 N'hésitez pas à me contacter pour toute opportunité de stage, alternance ou projet collaboratif !
 
 ---
+
 
 
 
