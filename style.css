@@ -1128,3 +1128,61 @@ footer {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+/* Styles pour les compétences avec icônes */
+.competence-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.competence-header i {
+    font-size: 1.5rem;
+    width: 30px;
+    text-align: center;
+}
+
+.competence-header .fa-html5 { color: #e34f26; }
+.competence-header .fa-css3-alt { color: #1572b6; }
+.competence-header .fa-js-square { color: #f7df1e; }
+.competence-header .fa-java { color: #007396; }
+.competence-header .fa-python { color: #3776ab; }
+.competence-header .fa-php { color: #777bb4; }
+.competence-header .fa-react { color: #61dafb; }
+.competence-header .fa-node-js { color: #339933; }
+.competence-header .fa-bootstrap { color: #7952b3; }
+.competence-header .fa-database { color: #4479a1; }
+.competence-header .fa-git-alt { color: #f05032; }
+.competence-header .fa-linux { color: #fcc624; }
+.competence-header .fa-windows { color: #0078d6; }
+.competence-header .fa-code { color: #007acc; }
+.competence-header .fa-cogs { color: #2c2255; }
+.competence-header .fa-figma { color: #f24e1e; }
+
+.competence-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.competence-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--light-color);
+    color: var(--primary-color);
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.competence-tag:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    transform: translateY(-3px);
+}
+
+.competence-tag i {
+    font-size: 1.1rem;
+}
