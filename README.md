@@ -67,8 +67,8 @@ Portfolio-2025-2026/
 
 ## 📫 Contact
 
-- **📧 Email:** [Votre email]
-- **💼 LinkedIn:** [Votre profil LinkedIn]
+- **📧 Email:** manonehret2@gmail.com
+- **💼 LinkedIn:** https://www.linkedin.com/in/manon-ehret-575300279
 - **💻 GitHub:** [@12Darwin21](https://github.com/12Darwin21)
 - **🌐 Portfolio:** [https://12darwin21.github.io/Portfolio-2025-2026/](https://12darwin21.github.io/Portfolio-2025-2026/)
 
@@ -95,4 +95,5 @@ N'hésitez pas à me contacter pour toute opportunité de stage, alternance ou p
 ⭐ **"Le code est de la poésie pour machines"** ⭐
 
 </div>
+
 
