@@ -3,7 +3,6 @@ Portfolio EHRET Manon, étudiante en BTS SIO SLAM 2024-2026
 # 🚀 Portfolio - EHRET BTS SIO
 
 **Étudiant en BTS SIO option SLAM** - Développement d'Applications  
-*En recherche d'alternance pour la rentrée 2025*
 
 ## 📋 À propos
 
@@ -89,6 +88,7 @@ Ce portfolio est déployé automatiquement via **GitHub Pages** à chaque mise �
 N'hésitez pas à me contacter pour toute opportunité de stage, alternance ou projet collaboratif !
 
 ---
+
 
 
 
