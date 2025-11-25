@@ -44,21 +44,49 @@
         </div>
     </section>
 
-    <!-- Section À Propos -->
-    <section id="apropos" class="section">
-        <div class="container">
-            <h2 class="section-title">À Propos de Moi</h2>
-            <div class="apropos-content">
-                <div class="apropos-text">
+   <!-- Section À Propos -->
+<section id="apropos" class="section">
+    <div class="container">
+        <h2 class="section-title">À Propos de Moi</h2>
+        <div class="apropos-content">
+            <!-- Timeline à gauche -->
+            <div class="apropos-timeline">
+                <div class="timeline-item active" data-target="parcours">
+                    <div class="timeline-dot"></div>
+                    <span>Parcours</span>
+                </div>
+                <div class="timeline-item" data-target="motivations">
+                    <div class="timeline-dot"></div>
+                    <span>Motivations</span>
+                </div>
+                <div class="timeline-item" data-target="objectifs">
+                    <div class="timeline-dot"></div>
+                    <span>Objectifs</span>
+                </div>
+                <div class="timeline-item" data-target="metiers">
+                    <div class="timeline-dot"></div>
+                    <span>Métiers</span>
+                </div>
+            </div>
+
+            <!-- Contenu à droite -->
+            <div class="apropos-text">
+                <div class="content-item active" id="parcours">
                     <h3>Mon Parcours</h3>
                     <p>Je suis actuellement étudiante en BTS SIO option SLAM, passionnée par l'informatique en général et plus particulièrement par le développement et le code. Depuis mon plus jeune âge, fascinée par les nouvelles technologies, j'ai naturellement orienté mon parcours vers ce domaine en constante évolution.</p>
-                    
+                </div>
+
+                <div class="content-item" id="motivations">
                     <h3>Mes Motivations</h3>
                     <p>Je suis profondément motivée par la création de solutions logicielles et la résolution de problèmes techniques. J'adore coder et découvrir sans cesse de nouvelles techniques et méthodes de développement variées. L'apprentissage permanent et la diversité des challenges technologiques sont pour moi de véritables sources d'enthousiasme.</p>
-                    
+                </div>
+
+                <div class="content-item" id="objectifs">
                     <h3>Mes Objectifs</h3>
                     <p>À court terme, je souhaite approfondir mes compétences en développement et participer à des projets concrets qui me permettront de progresser techniquement. À moyen terme, mon ambition est de devenir développeuse full-stack et de pouvoir contribuer à des projets d'envergure, en alliant créativité et expertise technique.</p>
-                    
+                </div>
+
+                <div class="content-item" id="metiers">
                     <h3>Métiers Visés</h3>
                     <ul>
                         <li>Développeur Full-Stack</li>
@@ -69,7 +97,8 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Section Formation -->
 <section id="formation" class="section">

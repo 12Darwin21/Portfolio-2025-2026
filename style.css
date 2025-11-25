@@ -1186,3 +1186,125 @@ footer {
 .competence-tag i {
     font-size: 1.1rem;
 }
+/* Timeline À Propos */
+.apropos-content {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 50px;
+    align-items: start;
+}
+
+.apropos-timeline {
+    position: relative;
+    padding: 20px 0;
+}
+
+.apropos-timeline::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--secondary-color), var(--primary-color));
+    border-radius: 2px;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px 15px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.timeline-item:hover {
+    background-color: rgba(52, 152, 219, 0.1);
+    transform: translateX(5px);
+}
+
+.timeline-item.active {
+    background-color: rgba(52, 152, 219, 0.15);
+    transform: translateX(10px);
+}
+
+.timeline-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    margin-right: 20px;
+    position: relative;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.timeline-item.active .timeline-dot {
+    background-color: var(--primary-color);
+    transform: scale(1.3);
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.3);
+}
+
+.timeline-item span {
+    font-weight: 600;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.timeline-item.active span {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+/* Contenu */
+.content-item {
+    display: none;
+    animation: fadeIn 0.5s ease;
+}
+
+.content-item.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .apropos-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .apropos-timeline {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+    
+    .apropos-timeline::before {
+        display: none;
+    }
+    
+    .timeline-item {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    
+    .timeline-dot {
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+}

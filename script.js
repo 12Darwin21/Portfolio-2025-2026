@@ -112,3 +112,23 @@ function checkScroll() {
 // Lancer au chargement et au scroll
 window.addEventListener('scroll', checkScroll);
 window.addEventListener('load', checkScroll);
+
+// Timeline interactive
+document.addEventListener('DOMContentLoaded', function() {
+    const timelineItems = document.querySelectorAll('.timeline-item');
+    const contentItems = document.querySelectorAll('.content-item');
+    
+    timelineItems.forEach(item => {
+        item.addEventListener('click', function() {
+            const target = this.getAttribute('data-target');
+            
+            // Retirer active de tous
+            timelineItems.forEach(i => i.classList.remove('active'));
+            contentItems.forEach(c => c.classList.remove('active'));
+            
+            // Activer l'élément cliqué
+            this.classList.add('active');
+            document.getElementById(target).classList.add('active');
+        });
+    });
+});
