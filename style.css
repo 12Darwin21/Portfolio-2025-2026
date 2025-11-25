@@ -1113,7 +1113,7 @@ footer {
     display: inline-flex;
     align-items: center;
     padding: 10px 20px;
-    background-color: #e74c3c;
+    background-color: #e7a33c;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -1124,7 +1124,7 @@ footer {
 }
 
 .rapport-btn:hover {
-    background-color: #c0392b;
+    background-color: #e7a33c;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
