@@ -931,8 +931,8 @@ footer {
 
 .shape {
     position: absolute;
-    opacity: 0.03;
-    background: var(--secondary-color);
+    opacity: 0.05;
+    background: var(--secondary-color); /* Bleu clair */
     border-radius: 50%;
 }
 
@@ -941,7 +941,7 @@ footer {
     height: 300px;
     top: -100px;
     right: -100px;
-    background: var(--primary-color);
+    background: var(--primary-color); /* Bleu foncé */
 }
 
 .shape-2 {
@@ -949,6 +949,7 @@ footer {
     height: 200px;
     bottom: 10%;
     left: 5%;
+    background: var(--secondary-color); /* Bleu clair */
 }
 
 .shape-3 {
@@ -956,7 +957,23 @@ footer {
     height: 150px;
     top: 40%;
     right: 10%;
-    background: var(--accent-color);
+    background: var(--accent-color); /* Bleu medium */
+}
+
+.shape-4 {
+    width: 100px;
+    height: 100px;
+    top: 20%;
+    left: 8%;
+    background: var(--secondary-color); /* Bleu clair */
+}
+
+.shape-5 {
+    width: 180px;
+    height: 180px;
+    bottom: 30%;
+    right: 15%;
+    background: var(--primary-color); /* Bleu foncé */
 }
 .section-title {
     text-align: center;
