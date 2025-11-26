@@ -25,12 +25,12 @@ Portfolio personnel présentant mon parcours, mes compétences techniques et mes
 ## 📁 Structure du projet
 Portfolio-2025-2026/<br>
 ├──images<br>
-&nbsp;└── background.png<br>
-&nbsp;└──favicon.svg<br>
-&nbsp;└──fondbleu.jpg<br>
+&nbsp;&nbsp;&nbsp;└── background.png<br>
+&nbsp;&nbsp;&nbsp;└──favicon.svg<br>
+&nbsp;&nbsp;&nbsp;└──fondbleu.jpg<br>
 ├──pdf<br>
-&nbsp;└── CV EHRET MANON.pdf<br>
-&nbsp;└──rapport-stage.pdf<br>
+&nbsp;&nbsp;&nbsp;└── CV EHRET MANON.pdf<br>
+&nbsp;&nbsp;&nbsp;└──rapport-stage.pdf<br>
 ├── index.html # Page principale <br>
 ├── style.css # Feuille de styles CSS <br>
 ├── script.js # Scripts JavaScript <br>
