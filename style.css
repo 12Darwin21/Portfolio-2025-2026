@@ -24,7 +24,7 @@ body {
     background-color: white;
     background-image: 
         linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
-        url('images/imagefond.jpg');
+        url('https://images.unsplash.com/photo-1699891730676-037bed3c1bed?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9uZCUyMGRlJTIwc2l0ZSUyMHdlYnxlbnwwfHwwfHx8MA%3D%3D');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
