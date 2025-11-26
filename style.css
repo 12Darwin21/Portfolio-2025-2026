@@ -1217,7 +1217,7 @@ footer {
 .timeline-item {
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     cursor: pointer;
     transition: all 0.3s ease;
     padding: 15px 20px 15px 15px;
