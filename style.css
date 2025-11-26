@@ -1240,11 +1240,12 @@ footer {
     height: 16px;
     border-radius: 50%;
     background-color: var(--secondary-color);
-    margin-right: 25px;
-    margin-left: 15px;
+    margin-right: 25px !important;
+    margin-left: 10px !important;
     position: relative;
     z-index: 2;
     transition: all 0.3s ease;
+    border: 2px solid red !important;
 }
 
 .timeline-item.active .timeline-dot {
