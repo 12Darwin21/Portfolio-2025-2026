@@ -1217,7 +1217,7 @@ footer {
 .timeline-item {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     cursor: pointer;
     transition: all 0.3s ease;
     padding: 15px 20px 15px 15px;
@@ -1264,7 +1264,16 @@ footer {
     color: var(--primary-color);
     font-weight: 700;
 }
+.timeline-item:focus {
+    outline: 2px solid var(--secondary-color);
+    outline-offset: 8px; /* Ajustez cette valeur */
+    border-radius: 4px; /* Coins arrondis pour l'outline */
+}
 
+.timeline-item:active {
+    outline: 2px solid var(--secondary-color);
+    outline-offset: 8px;
+}
 /* Contenu */
 .content-item {
     display: none;
