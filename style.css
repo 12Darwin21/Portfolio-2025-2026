@@ -1206,7 +1206,7 @@ footer {
 .apropos-timeline::before {
     content: '';
     position: absolute;
-    left: 45px;
+    left: 20px;
     top: 0;
     bottom: 0;
     width: 3px;
@@ -1240,12 +1240,11 @@ footer {
     height: 16px;
     border-radius: 50%;
     background-color: var(--secondary-color);
-    margin-right: 20px !important;
-    margin-left: 20px !important;
+    margin-right: 15px !important;
+    margin-left: 30px !important;
     position: relative;
     z-index: 2;
     transition: all 0.3s ease;
-    border: 2px solid red !important;
 }
 
 .timeline-item.active .timeline-dot {
