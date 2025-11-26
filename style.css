@@ -24,7 +24,7 @@ body {
     background-color: white;
     background-image: 
         linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
-        url('images/background.png');
+        url('images/imagefond.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
