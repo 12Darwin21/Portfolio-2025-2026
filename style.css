@@ -1375,3 +1375,21 @@ footer {
 .swap-on {
     color: #e5e7eb; /* Gris clair pour la lune */
 }
+/* Variables pour le mode sombre */
+[data-theme="dark"] {
+    --primary-color: #1e293b;
+    --secondary-color: #334155;
+    --text-color: #e2e8f0;
+    --text-light: #94a3b8;
+    --light-color: #334155;
+    --dark-color: #0f172a;
+}
+
+[data-theme="dark"] body {
+    background-color: #0f172a;
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .section:nth-child(even) {
+    background: #1e293b;
+}
