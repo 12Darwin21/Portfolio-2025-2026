@@ -1380,20 +1380,20 @@ footer {
     --primary-color: #1e293b;
     --secondary-color: #334155;
     --accent-color: #3b82f6;
-    --text-color: #e2e8f0;
+    --text-color: #051b36;
     --text-light: #94a3b8;
-    --light-color: #334155;
+    --light-color: #082f61;
     --dark-color: #0f172a;
 }
 
 [data-theme="dark"] body {
     background-color: #0f172a;
-    color: #e2e8f0;
+    color: #011022;
     background-image: none; /* Supprime l'image de fond */
 }
 
 [data-theme="dark"] .section {
-    background-color: #1e293b;
+    background-color: #082046;
 }
 
 [data-theme="dark"] .section:nth-child(even) {
@@ -1401,7 +1401,7 @@ footer {
 }
 
 [data-theme="dark"] #accueil {
-    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    background: linear-gradient(135deg, #1e293b 0%, #162131 100%);
 }
 
 [data-theme="dark"] .formation-card,
@@ -1409,11 +1409,11 @@ footer {
 [data-theme="dark"] .projet-card,
 [data-theme="dark"] .veille-card {
     background-color: #334155;
-    color: #e2e8f0;
+    color: #051224;
 }
 
 [data-theme="dark"] .competence-tag,
 [data-theme="dark"] .projet-features span {
     background-color: #475569;
-    color: #e2e8f0;
+    color: #081629;
 }
