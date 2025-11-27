@@ -1352,3 +1352,26 @@ footer {
         font-size: 1rem;
     }
 }
+/* Dark/Light Mode Toggle */
+.theme-swap {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.theme-swap:hover {
+    transform: scale(1.1);
+}
+
+.swap-rotate .swap-on,
+.swap-rotate .swap-off {
+    transition: all 0.3s ease;
+}
+
+/* Couleurs des icônes */
+.swap-off {
+    color: #fbbf24; /* Jaune pour le soleil */
+}
+
+.swap-on {
+    color: #e5e7eb; /* Gris clair pour la lune */
+}

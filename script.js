@@ -132,3 +132,22 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+// Dark/Light Mode
+const themeController = document.querySelector('.theme-controller');
+
+// Charger le thème sauvegardé
+if (localStorage.getItem('theme') === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    themeController.checked = true;
+}
+
+// Changer le thème
+themeController.addEventListener('change', function() {
+    if (this.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+    } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+    }
+});
