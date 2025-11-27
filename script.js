@@ -139,6 +139,9 @@ const themeController = document.querySelector('.theme-controller');
 if (localStorage.getItem('theme') === 'dark') {
     document.documentElement.setAttribute('data-theme', 'dark');
     themeController.checked = true;
+} else {
+    document.documentElement.setAttribute('data-theme', 'light');
+    themeController.checked = false;
 }
 
 // Changer le thème
